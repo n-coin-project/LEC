@@ -38,8 +38,8 @@ LEC is a volume‑based cryptographic primitive where security emerges from the 
 ## Files
 
 ### Documentation
-- [doc/LivingEntropyCipher(English).pdf](doc/LivingEntropyCipher(English).pdf)
-- [doc/LivingEntropyCipher(Japanese).pdf](doc/LivingEntropyCipher(Japanese).pdf)
+- [doc/LivingEntropyCipher(English).pdf](doc/LivingEntropyCipher%28English%29.pdf)
+- [doc/LivingEntropyCipher(Japanese).pdf](doc/LivingEntropyCipher%28Japanese%29.pdf)
 
 ### Source Code
 - [src/lec.h](src/lec.h)
