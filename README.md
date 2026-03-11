@@ -51,14 +51,13 @@ LEC is a volume‑based cryptographic primitive where security emerges from the 
 
 ~~~
 LEC/
-├─ src/
-│   ├─ lec.h
-│   └─ lec.c
-├─ examples/
-│   └─ main.c   (optional demo)
-├─ tools/
-│   └─ CSharp_GUI/   (optional original prototype)
-└─ README.md
+├─ doc/
+│   ├─ LivingEntropyCipher(English).pdf
+│   └─ LivingEntropyCipher(Japanese).pdf
+│
+└─ src/
+    ├─ lec.h
+    └─ lec.c
 ~~~
 
 ---
@@ -71,7 +70,6 @@ For each byte:
 - XOR input with key  
 - Mutate table using ciphertext  
 - Advance pointer and index  
-- Repeat  
 
 The table evolves every byte, ensuring:
 
